@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import image1 from "../../assets/algebra.jpg";
 import data from "../../data/data";
 
 const Courses = () => {
@@ -25,7 +24,12 @@ const Courses = () => {
               );
             })}
           </div>
-          <Link to="/" className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg">Level 100 Courses</Link>
+          <Link
+            to="/level100"
+            className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg"
+          >
+            Level 100 Courses
+          </Link>
 
           <div className="grid gap-6 lg:grid-cols-3">
             {data.slice(3, 6).map((course) => {
@@ -41,7 +45,12 @@ const Courses = () => {
             })}
           </div>
 
-          <Link to="/" className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg">Level 200 Courses</Link>
+          <Link
+            to="/level200"
+            className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg"
+          >
+            Level 200 Courses
+          </Link>
 
           <div className="grid gap-6 lg:grid-cols-3">
             {data.slice(6, 9).map((course) => {
@@ -57,7 +66,12 @@ const Courses = () => {
             })}
           </div>
 
-          <Link to="/" className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg">Level 300 Courses</Link>
+          <Link
+            to="/level300"
+            className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg"
+          >
+            Level 300 Courses
+          </Link>
 
           <div className="grid gap-6 lg:grid-cols-3">
             {data.slice(9, 11).map((course) => {
@@ -73,7 +87,12 @@ const Courses = () => {
             })}
           </div>
 
-          <Link to="/" className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg">Level 400 Courses</Link>
+          <Link
+            to="/level400"
+            className="p-4 bg-teal-800 cursor-pointer text-white rounded-lg"
+          >
+            Level 400 Courses
+          </Link>
         </div>
       </div>
     </section>

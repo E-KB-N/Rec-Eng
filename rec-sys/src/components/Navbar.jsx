@@ -13,8 +13,8 @@ const Navbar = () => {
 
 
   return (
-    <header className="w-full fixed left-0 z-[100] bg-zinc-600">
-      <nav className="w-full flex items-center justify-between bg-white h-20 md:px-10 px-7 max-w-[1444px] my-0 mx-auto">
+    <header className="w-full fixed left-0 z-[100] top-0 bg-zinc-600">
+      <nav className="w-full flex items-center justify-between bg-white h-24 md:px-10 px-7 max-w-[1444px] my-0 mx-auto">
         <NavLink to={`/`}>
           <h1 className="cursor-pointer text-primary text-2xl font-semibold">
           BrainBox
